@@ -1,13 +1,15 @@
 {
-  "name": "rn-fetch-blob",
-  "version": "0.12.0",
+  "name": "@cnakazawa/rn-fetch-blob",
+  "version": "0.12.0-custom",
   "description": "A module provides upload, download, and files access API. Supports file stream read/write for process large files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "base-64": "0.1.0",
+    "base-64": "0.1.0"
+  },
+  "devDependencies": {
     "glob": "7.0.6"
   },
   "keywords": [
